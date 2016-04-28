@@ -15,13 +15,13 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/Automattic/socket.io"
+    "url": "git://github.com/socketio/socket.io"
   },
   "scripts": {
     "test": "mocha --reporter dot --slow 200ms --bail"
   },
   "dependencies": {
-    "engine.io": "automattic/engine.io#f3fd4bb",
+    "engine.io": "socketio/engine.io#f3fd4bb",
     "socket.io-parser": "ReikoR/socket.io-parser",
     "socket.io-client": "ReikoR/socket.io-client",
     "socket.io-adapter": "ReikoR/socket.io-adapter",
